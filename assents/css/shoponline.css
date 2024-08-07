@@ -1,0 +1,1447 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgb(85, 114, 60);
+    height:40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.hicon1{
+    display: flex;
+}
+.fb{
+   margin-left: 80px;
+   font-size: 14px;
+}
+.fb:hover{
+   color: rgb(254, 210, 61);
+ }
+.twitter{
+    margin-left: 35px;
+    font-size: 14px;
+}
+.twitter:hover{
+    color: rgb(254, 210, 61);
+}
+.github{
+    margin-left: 35px;
+    font-size: 14px;
+}
+.github:hover{
+    color: rgb(254, 210, 61);  
+}
+.dribbble{
+    margin-left: 35px;
+    font-size: 14px;
+}
+.dribbble:hover{
+    color: rgb(254, 210, 61);  
+}
+.yt{
+    margin-left: 35px;
+    font-size: 14px;
+}
+.yt:hover{
+    color: rgb(254, 210, 61);  
+}
+.hicon2{
+    display: flex;
+    width: 100%;
+    margin-right: 75px;
+    justify-content: right;
+    font-size: 13px;
+    color: white;
+}
+/* toggle css start here */
+.modal-backdrop{
+    --bs-backdrop-opacity: 0;
+}
+.offcanvas{
+    background-color: #5ba15b;
+    color: #f2f6f9;
+}
+.btn-primary{
+    background-color: #3c5d3d;
+    border-color: #4CAF50;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus{
+    background-color: #3c5d3d !important;
+    border-color: #4CAF50 !important;
+    box-shadow: none;
+}
+.btn-primary:hover{
+    background-color: #3c5d3d !important;
+    border-color: #4CAF50 !important;
+    box-shadow: none;
+}
+.toggle-tag1 a{
+    color: white;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+.toggle-tag1 {
+    align-items: center;
+    height: 42px;
+    font-size: 20px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: #195d19;
+}
+/* toggle css end here */
+.email i{
+   margin-right: 5px;
+}
+.email:hover{
+    text-decoration: underline;
+}
+.your-cart i{
+    margin-left: 20px;
+}
+.your-cart:hover{
+    text-decoration: underline;
+}
+.login i{
+    margin-left: 20px;
+}
+.header2{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(109, 134, 87); 
+    display: flex;
+    align-items: center;
+    
+}
+.tag1{
+  font-weight: 600;  
+  font-size: 35px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-left: 80px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+
+}
+.menubar{
+    font-size: 32px;
+    margin-left: 30px;
+    display: none;
+    color: white;
+}
+.headsection {
+    width: 100%;
+    justify-content: right;
+    display: flex;
+    margin-right: 63px;
+}
+.number{
+  color: white;
+  width: 200px;
+}
+.callus{
+  color: rgb(241, 230, 230);  
+  font-size: 15px;
+  margin-left: 75px;
+}
+.callus i{
+    margin-right: 5px;
+}
+.number1{
+    font-size: 21px;
+    font-weight: 600; 
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+.week{
+   color: white;
+   width: 200px;
+   
+}
+.days{
+    margin-left: 30px;
+    color: rgb(241, 230, 230);  
+    font-size: 15px;
+}
+.days i{
+    margin-right: 5px;
+}
+.time{
+   font-size: 21px;
+   font-weight: 600; 
+   font-family: Roboto, Arial, Helvetica, sans-serif;  
+}
+.address{
+    color: white;
+    width: 245px;
+    margin-left: 20px;
+}
+.location{
+    color: rgb(241, 230, 230);  
+    font-size: 15px; 
+    margin-left: 25px;
+}
+.location i{
+    margin-right: 5px;
+}
+.address1{ 
+   font-size: 21px;
+   font-weight: 600; 
+   font-family: Roboto, Arial, Helvetica, sans-serif;
+   margin-left: 60px;
+}
+.header3{
+    height: 65px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.part1{
+    display: flex;
+    width: 100%;
+    margin-left: 80px;
+    align-items: center;
+    color: rgb(102, 102, 102);
+}
+.home{
+   font-weight: 600;
+   font-size: 14px;
+   font-family: Roboto, Arial, Helvetica, sans-;
+}
+.home:hover{
+    text-decoration: underline;
+}
+.home a,.blog a,.inventory a{
+    text-decoration: none;
+    color: gray;
+}
+.pages{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    height: 40px;
+    position: relative;
+    background-color: white;
+    font-family: Roboto, Arial, Helvetica, sans-;  
+}
+.dropdown {
+    position: absolute;
+    background-color: rgb(59, 90, 32);
+    color: white;
+    height: 180px;
+    width: 150px;
+    z-index: 7;
+    display: none;
+    line-height: 35px;
+}
+.pages:hover .dropdown{
+    display: block;
+    height: 210px;
+    width: 200px;
+    z-index: 7;
+    margin-top: 19px;
+}
+.blog{
+    margin-left: 40px;
+    font-weight: 600;
+   font-size: 14px;
+   font-family: Roboto, Arial, Helvetica, sans-;
+}
+.blog:hover{
+    text-decoration: underline;
+}
+.shop{
+    margin-left: 40px;
+    font-weight: 600;
+   font-size: 14px;
+   font-family: Roboto, Arial, Helvetica, sans-;
+}
+.shop:hover{
+    text-decoration: underline;
+}
+.shop a{
+    color: gray;
+    text-decoration: inherit;
+}
+.inventory{
+    margin-left: 40px;
+    font-weight: 600;
+   font-size: 14px;
+   font-family: Roboto, Arial, Helvetica, sans-;
+}
+.inventory:hover{
+    text-decoration: underline;
+}
+.contact3{
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Roboto, Arial, Helvetica, sans-; 
+}
+.contact3:hover{
+    text-decoration: underline;
+}
+.contact3 a{
+    text-decoration: none;
+    color: rgb(110, 109, 109);
+}
+.part2{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    margin-right: 73px;
+    justify-content: right;
+}
+.ar{
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+    font-size: 18px;  
+}
+.en{
+    margin-left: 30px;
+    color: rgb(75, 75, 75);
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Roboto, Arial, Helvetica, sans-; 
+
+}
+.search{
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: Roboto, Arial, Helvetica, sans-; 
+    color: rgb(75, 75, 75);
+}
+.menu{
+    margin-left: 33px;
+    font-size: 33px;
+    font-family: Roboto, Arial, Helvetica, sans-; 
+    color: rgb(75, 75, 75);
+}
+.productpage{
+    width: 100%;
+    height: 320px;
+    background-size: cover;
+    position: relative;
+}
+.productpage img{
+    width: 100%;
+    height: 320px;
+    background-size: cover;
+    object-fit: cover;   
+}
+.productpage::before{
+    content: ""; 
+    width: 100%;
+    height: 320px;
+    
+    position: absolute;
+    background-color: rgba(9, 8, 5, 0.193);
+}
+
+
+.shopon{
+    color: rgb(197 189 189);
+    justify-content: center;
+    top: 111px;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+}
+.shopontag{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    column-gap: 26px;
+}
+.shopon h3{
+ color: white;
+ font-size: 35px;
+}
+.shop1{
+    color: rgb(221 209 209); 
+}
+.shop4{
+    color: rgb(221 209 209);   
+}
+/* container css start */
+.text-center{
+    margin-top: 100px;
+    margin-bottom: 60px;
+    padding-right: 56px;
+    padding-left: 80px;
+}
+.pack1 img{
+    height: 250px;
+    width: 250px;
+}
+.ry{
+    font-size: 15px;
+    margin-top: 10px;
+    color:rgb(179, 174, 174);
+    font-family: Roboto, Arial, Helvetica, sans-;
+    font-weight: 600;
+} 
+
+.brownrice{
+    font-size: 27px;
+    color: rgb(38, 38, 38);
+}
+.brownrice:hover{
+    text-decoration: underline;
+    color: #7cac36;
+}
+.stock{
+    font-size: 14px;
+    color: #999;
+}
+.items1{
+    margin-bottom: 43px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 171px;
+    justify-content: center;
+}
+.items{
+    display: flex;
+    height: 35px;
+    width: 95px;
+    border:1px solid rgb(180, 175, 175);
+    align-items: center;
+    margin-top: 20px;
+    color: rgb(133, 141, 150);
+}
+.minus{
+    margin-left: 14px;
+}
+.no{
+    margin-left: 15px;
+}
+.plus{
+    margin-left: 15px;
+}
+.addcart{
+    display: flex;
+    height: 35px;
+    width: 145px;
+    border:1px solid rgb(180, 175, 175);
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 30px;
+    color: rgb(44, 43, 43);
+    font-size: 14px;
+}
+.pack2 img{
+    height: 250px;
+    width: 250px;
+}
+.pack3 img{
+    height: 227px;
+    width: 236px;
+}
+.pack4 img{
+    height: 250px;
+    width: 250px;
+}
+/* container css end */
+.twocontsiner{
+   display: flex;
+   height: 100%;
+   width: 100%;
+}
+.prodata{
+    height: 100%;
+    padding-right: 80px;
+    padding-top: 100px;
+}
+.pricing{
+  width: 100%; 
+  height: 100%;
+  position: relative;
+}
+.sing {
+    margin-top: 13px;
+    
+}
+.pricing1{
+    width: 100%; 
+    height: 48px;
+    border-bottom: 3px solid #adb5bd;
+}
+.pricing1::after{
+    content: "";
+    width: 100px;
+    margin-top: 3px;
+    height: 3px;
+    position: absolute;
+    background-color: #7cac36;
+}
+
+.search2{
+ width: 100%;
+ height: 100%;
+ margin-top: 30px;
+ 
+}
+.searchborder{
+    width: 100%; 
+    height: 48px;
+    border-bottom: 3px solid #adb5bd;
+    position: relative;
+}
+.searchborder::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    margin-top: 3px;
+    position: absolute;
+    background-color: #7cac36;
+}
+.searchbox{
+    padding-top: 35px;
+}
+.sp{
+    width: 350px;
+    border-radius: 5px;
+    border: 2px solid silver;
+    height: 37px;
+    padding-left: 12px;
+}
+.filterbtn1{
+    margin-top: 30px;
+}
+.filtton2{
+    background-color: #7cac36;
+    color: white;   
+    height: 40px;
+    border: 2px solid #7cac36;
+    width: 350px;
+}
+.filtton2:hover{
+    background-color: #7bb827;
+}
+.brands{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.brandborder{
+    width: 100%; 
+    height: 48px;
+    border-bottom: 3px solid #adb5bd;
+    position: relative;
+}
+
+.brandborder::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    margin-top: 3px;
+    position: absolute;
+    background-color: #7cac36;
+}
+.brand1{
+    padding-top: 10px;
+}
+.categories{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.catborder{
+    width: 100%; 
+    height: 48px;
+    border-bottom: 3px solid #adb5bd;
+    position: relative;
+}
+.catborder::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    margin-top: 3px;
+    position: absolute;
+    background-color: #7cac36;
+}
+.catego{
+    padding-top: 10px;
+}
+.homelist{
+    margin-left: 40px;
+}
+.listm2 p:hover{
+    text-decoration: underline;
+    color: #7bb827;
+    
+}
+ul li{
+   list-style-type: none; 
+   padding-left: 0px;
+}
+.mainmenu{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;  
+}
+.menulist {
+    padding-top: 6px;
+    line-height: 27px;
+}
+.menuborder{
+    width: 100%; 
+    height: 48px;
+    border-bottom: 3px solid #adb5bd;
+    position: relative;  
+}
+.menuborder::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    margin-top: 3px;
+    position: absolute;
+    background-color: #7cac36;
+}
+.listm2 ul{
+    border-left: 1px dashed grey;
+    color: black;
+    margin: 0 20px;
+    padding-left: 19px; 
+}
+.listm2 li{
+    position: relative;
+    
+
+}
+.listm2 li::before{
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 17px;
+    border-left: 1px dashed gray;
+    left: -17px;
+    top: 50%;
+
+}
+.homelist4:hover,.homelist3:hover,.homelist2:hover,.homelist1:hover,.listm1:hover{
+    color: rgb(124, 172, 54);
+    text-decoration: underline;
+}
+.homelist5:hover,.homelist6:hover,.listm3:hover,.listm4:hover,.listm5:hover,.listm6:hover{
+    color: rgb(124, 172, 54);
+    text-decoration: underline;
+}
+/* footer start */
+footer{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(51, 75, 54);
+    color: rgb(212, 212, 212);
+    position: relative;  
+}
+.riva{
+    position: absolute;
+    justify-content: right;
+    display: flex;
+    width: 100%;
+}
+footer img{
+    height: 440px;
+    width: 650px;
+    background-size: cover;
+    margin-top: 60px;
+}
+.footercont{
+    display: flex;
+    font-size: 22px;
+    position: absolute;
+    top: 80px;
+    height: 250px;
+    width: 100%;
+    padding-left: 80px;
+    color: white;
+}
+.agrocos{
+  font-size: 40px;
+  font-family: Roboto, Arial, Helvetica, sans-;;
+  font-weight: 600;
+  letter-spacing: 2px;
+  width: 100%;
+  color: white;
+}
+.agrocos h6{
+    font-size: 16px;
+    margin-top: 20px;
+    color:rgb(196, 188, 188);
+}
+.footericon{
+    color: white;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 179px;
+}
+.footerfb{
+    padding: 9px 14px 9px 14px;
+    font-size: 12px;
+    color:rgb(211, 204, 204);
+    background-color: rgb(117, 131, 105);
+    border-radius: 20px;
+    border: 1px solid rgb(117, 131, 105);
+}
+.footerfb:hover{
+   color: white;
+}
+.footerbe{
+    padding:9px 12px 8px 12px;
+    font-size: 13px;
+    margin-left: 20px;
+    color:rgb(211, 204, 204);
+    background-color: rgb(117, 131, 105); 
+    border-radius: 20px;
+    border: 1px solid rgb(117, 131, 105); 
+}
+.footerbe:hover i{
+    color: white;
+}
+.footertw{
+    padding: 10px 12px 10px 12px;
+    font-size: 11px;
+    margin-left: 20px;
+    color:rgb(211, 204, 204);
+    background-color:rgb(117, 131, 105);
+    border-radius: 20px;
+    border: 1px solid rgb(117, 131, 105);
+}
+.footertw:hover i{
+    color: white; 
+}
+.footerin{
+    padding: 9px 14px 9px 14px;
+    font-size: 12px;
+    margin-left: 20px;
+    color:rgb(211, 204, 204);
+    background-color: rgb(117, 131, 105);
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid rgb(117, 131, 105);
+}
+.footerin:hover{
+    color: white;
+}
+.company{
+    padding-left: 30px;
+    width: 100%;
+}
+.comp1 h6{
+    color:rgb(212, 212, 212);
+    margin-top: 25px;
+}
+.comp1:hover h6{
+    text-decoration: underline;
+    color:#7cac36;
+}
+.comp2 h6{
+    color:rgb(212, 212, 212);
+    margin-top: 15px;
+}
+.comp2:hover h6{
+    text-decoration: underline;
+    color:#7cac36;
+}
+.comp4 h6{
+    color:rgb(212, 212, 212);
+    margin-top: 15px;
+}
+.comp4:hover h6{
+    text-decoration: underline;
+    color:#7cac36;
+}
+.comp5 h6{
+    color:rgb(212, 212, 212);
+    margin-top: 15px;
+}
+.comp5:hover h6{
+    text-decoration: underline;
+    color:#7cac36;
+}
+.product{
+    width: 100%;
+    padding-left: 30px;
+}
+.prod1 h6{
+    color:rgb(212, 212, 212);
+    margin-top: 25px;
+}
+.prod1:hover h6{
+    text-decoration: underline;
+    color:#7cac36;
+}
+.prod2 h6{
+    color:rgb(212, 212, 212);
+    margin-top: 15px;
+}
+.prod2:hover h6{
+    text-decoration: underline;
+    color:#7cac36;
+}
+.prod4 h6{
+    color:rgb(212, 212, 212);
+    margin-top: 15px;
+}
+.prod4:hover h6{
+    text-decoration: underline;
+    color:#7cac36;
+}
+.prod5 h6{
+    color:rgb(212, 212, 212);
+    margin-top: 15px;
+}
+.prod5:hover h6{
+    text-decoration: underline;
+    color:#7cac36;
+}
+.finventory{
+    width: 100%;
+    padding-left: 30px;
+}
+.invent1 h6{
+    color:rgb(212, 212, 212);
+    margin-top: 25px;
+}
+.invent1:hover h6{
+    text-decoration: underline;
+    color:#7cac36;
+}
+.invent2 h6{
+    color:rgb(212, 212, 212);
+    margin-top: 15px;
+}
+.invent2:hover h6{
+    text-decoration: underline;
+    color:#7cac36;
+}
+.invent4 h6{
+    color:rgb(212, 212, 212);
+    margin-top: 15px;
+}
+.invent4:hover h6{
+    text-decoration: underline;
+    color:#7cac36;
+}
+.invent5 h6{
+    color:rgb(212, 212, 212);
+    margin-top: 15px;
+}
+.invent5:hover h6{
+    text-decoration: underline;
+    color:#7cac36;
+}
+.continfo{
+    width: 100%;
+    padding-right: 80px;
+
+}
+.faddress{
+  margin-top: 20px;  
+  color:rgb(212, 212, 212); 
+  font-size: 16px;
+}
+.fnumber{
+   margin-top: 18px;   
+  color:rgb(212, 212, 212); 
+  font-size: 16px;
+}
+.femail{
+    margin-top: 18px; 
+    color:rgb(212, 212, 212); 
+    font-size: 16px;  
+}
+.footborder{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    z-index: 4;
+}
+.fborder{
+    margin-left: 80px;
+    margin-right: 80px;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(114, 112, 112);
+}
+.endtag{
+    display: flex;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: space-between;
+}
+.ftag1{
+    margin-top: 40px;
+    color:rgb(212, 212, 212); 
+    font-size: 14px;
+    display: flex;
+}
+.ftag1:hover h6{
+   color: #7cac36;
+   text-decoration: underline;  
+}
+.ftag2{
+   display: flex;
+   color:rgb(212, 212, 212); 
+   margin-top: 40px;
+}
+.condition{
+   font-size: 15px; 
+}
+.condition:hover{
+    text-decoration: underline;
+    color: #7cac36;
+}
+.policy{
+   font-size: 15px;
+   margin-left: 35px;  
+}
+.policy:hover{
+    text-decoration: underline;
+    color: #7cac36;
+}
+.privacy{
+  font-size: 15px; 
+  margin-left: 35px;  
+}
+.privacy:hover{
+    text-decoration: underline;
+    color: #7cac36;
+}
+.greenarrow{
+    height: 60px;
+    width: 60px;
+    background: rgb(124, 172, 54);
+    color: white;
+    border: 1px solid rgb(124, 172, 54);
+    position: absolute;
+    border-radius: 200px;
+    padding: 12px 0px 0px 20px;
+    font-size: 22px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 6;
+    position: fixed;
+}
+.hicon1{
+    display: flex;
+}
+footer{
+    justify-content: center;
+    display: flex;
+}
+.footercont {
+    display: flex;
+    justify-content: center;
+}
+.bottumcon {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+@media only screen and (min-width : 280px) and (max-width : 319px){
+    .hicon1,.header3,.headsection,.ftag2 {
+        display: none;
+    }
+    .tag1 {
+        margin-left: 0;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .menubar{
+        display: block;
+        margin-left: 26px;
+    }
+    .shopontag{
+        font-size: 14px;
+        column-gap: 22px;
+    }
+    .hicon2{
+        margin-right: 22px;
+        font-size: 11px;
+        margin-left: 13px;
+    }
+    .your-cart {
+        text-align: center;
+    }
+    .login {
+        text-align: center;
+    }
+    .tag1{
+        margin-right: 32px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .shopontag{
+        column-gap: 9px;
+    }
+    /* section 2 start */
+    .prodata{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 38px;
+    }
+    .twocontsiner{
+        display: block;
+    }
+    .addcart{
+        margin-left: 10px;
+    }
+    .items1{
+        column-gap: normal
+    }
+    .text-center{
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+    .sp,.filtton2 {
+        width: 100%;
+    }
+    .menuborder,.catborder,.brandborder,.searchborder,.pricing1{
+        height: 100%;
+    }
+    .menuborder::after,.catborder::after,.brandborder::after,.searchborder::after,.pricing1::after{
+        margin-top: 0;
+    }
+    .pack1 img,.pack3 img,.pack4 img,.pack2 img {
+        height: 184px;
+        width: 186px;
+    }
+    /* footer start */
+    footer{
+        height: 1201px;
+    }
+    .riva{
+        height: 433px;
+        bottom: 0;
+    }
+    footer img{
+        height: 100%;
+        margin-top: 0;
+    }
+    .footercont{
+        display: block;
+        padding-left: 0;
+    }
+    .agrocos{
+        padding-left: 25px;
+        width: 100%;
+        height: 100%;
+    }
+    .agrocos h6{
+        margin-right: 25px;
+    }
+    .company{
+        padding-left: 25px;
+    }
+    .product{
+        padding-left: 25px;
+    }
+    .finventory{
+        padding-left: 25px;
+    }
+    .continfo{
+        padding-left: 25px;
+    }
+    .endtag{
+        padding-left: 25px;
+        padding-right: 0;
+    }
+    .fborder{
+        margin-left: 25px;
+        margin-right: 25px;
+        padding-top: 53px;
+    }
+    .ftag1 {
+        margin-top: 23px;
+    }
+
+
+
+
+} 
+@media only screen and (min-width : 320px) and (max-width : 575px){
+    .hicon1,.header3,.headsection,.ftag2 {
+        display: none;
+    }
+    .header2{
+        padding: 0 20px;
+    }
+    .menubar{
+        display: block;
+        margin-left: 26px;
+    }
+    .shopontag{
+        font-size: 14px;
+        column-gap: 22px;
+    }
+    .hicon2{
+        margin-right: 25px;
+        font-size: 11px;
+    }
+    .tag1{
+        margin-left: 0;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    /* section 2 start */
+    .prodata{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .twocontsiner{
+        display: block;
+    }
+    .addcart{
+        margin-left: 10px;
+    }
+    .items1{
+        column-gap: normal
+    }
+    .text-center{
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+    .sp,.filtton2 {
+        width: 100%;
+    }
+    .menuborder,.catborder,.brandborder,.searchborder,.pricing1{
+        height: 100%;
+    }
+    .menuborder::after,.catborder::after,.brandborder::after,.searchborder::after,.pricing1::after{
+        margin-top: 0;
+    }
+    /* footer start */
+    footer{
+        height: 1201px;
+    }
+    .riva{
+        height: 433px;
+        bottom: 0;
+    }
+    footer img{
+        height: 100%;
+        margin-top: 0;
+    }
+    .footercont{
+        display: block;
+        padding-left: 0;
+    }
+    .agrocos{
+        padding-left: 25px;
+        width: 100%;
+        height: 100%;
+    }
+    .agrocos h6{
+        margin-right: 25px;
+    }
+    .company{
+        padding-left: 25px;
+    }
+    .product{
+        padding-left: 25px;
+    }
+    .finventory{
+        padding-left: 25px;
+    }
+    .continfo{
+        padding-left: 25px;
+    }
+    .endtag{
+        padding-left: 25px;
+        padding-right: 0;
+    }
+    .fborder{
+        margin-left: 25px;
+        margin-right: 25px;
+        padding-top: 53px;
+    }
+    .ftag1 {
+        margin-top: 23px;
+    }
+
+
+
+
+} 
+@media only screen and (min-width : 576px) and (max-width : 768px){
+    .hicon1,.header3,.headsection,.ftag2 {
+        display: none;
+    }
+    .header2{
+        padding: 0 100px;
+    }
+    .menubar{
+        display: block;
+        margin-left: 26px;
+    }
+    .shopontag{
+        font-size: 14px;
+        column-gap: 22px;
+    }
+    .hicon2{
+        margin-right: 100px;
+        font-size: 11px;
+    }
+    .tag1{
+        margin-right: 32px;
+        margin-left: 0;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    /* section 2 start */
+    .prodata{
+        padding-bottom: 51px;
+        padding-top: 51px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .twocontsiner{
+        display: block;
+    }
+    .addcart{
+        margin-left: 10px;
+    }
+    .items1{
+        column-gap: normal
+    }
+    .text-center{
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+    .sp,.filtton2 {
+        width: 100%;
+    }
+    .menuborder,.catborder,.brandborder,.searchborder,.pricing1{
+        height: 100%;
+    }
+    .menuborder::after,.catborder::after,.brandborder::after,.searchborder::after,.pricing1::after{
+        margin-top: 0;
+    }
+    /* footer start */
+    footer{
+        height: 1201px;
+    }
+    .riva{
+        height: 433px;
+        bottom: 0;
+    }
+    footer img{
+        height: 100%;
+        margin-top: 0;
+    }
+    .footercont{
+        display: block;
+        padding-left: 0;
+    }
+    .agrocos{
+        padding-left: 100px;
+        padding-right: 100px;
+        width: 100%;
+        height: 100%;
+    }
+    .company{
+        padding-left: 100px;
+    }
+    .product{
+        padding-left: 100px;
+    }
+    .finventory{
+        padding-left: 100px;
+    }
+    .continfo{
+        padding-left: 100px;
+    }
+    .endtag{
+        padding-left: 100px;
+        padding-right: 0;
+    }
+    .fborder{
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-top: 53px;
+    }
+    .ftag1 {
+        margin-top: 23px;
+    }
+    .company,.product,.finventory {
+        width: 279px;
+    }
+    .continfo{
+        width: 100%;
+    }
+
+
+
+
+} 
+@media only screen and (min-width : 769px) and (max-width : 991px){
+    .hicon1,.header3,.headsection,.ftag2 {
+        display: none;
+    }
+    .header2{
+        padding: 0 50px;
+    }
+    .menubar{
+        display: block;
+        margin-left: 26px;
+    }
+    .shopontag{
+        font-size: 14px;
+        column-gap: 22px;
+    }
+    .hicon2{
+        margin-right: 50px;
+        font-size: 11px;
+    }
+    .tag1{
+        margin-right: 32px;
+        margin-left: 0;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    /* section 2 start */
+    .prodata{
+        padding-bottom: 51px;
+        padding-top: 51px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .twocontsiner{
+        display: block;
+    }
+    .addcart{
+        margin-left: 10px;
+    }
+    .items1{
+        column-gap: normal
+    }
+    .text-center{
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+    .sp,.filtton2 {
+        width: 100%;
+    }
+    .menuborder,.catborder,.brandborder,.searchborder,.pricing1{
+        height: 100%;
+    }
+    .menuborder::after,.catborder::after,.brandborder::after,.searchborder::after,.pricing1::after{
+        margin-top: 0;
+    }
+    /* footer start */
+    footer{
+        height: 1201px;
+    }
+    .riva{
+        height: 433px;
+        bottom: 0;
+    }
+    footer img{
+        height: 100%;
+        margin-top: 0;
+    }
+    .footercont{
+        display: block;
+        padding-left: 0;
+    }
+    .agrocos{
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+        height: 100%;
+    }
+    .company{
+        padding-left: 50px;
+    }
+    .product{
+        padding-left: 50px;
+    }
+    .finventory{
+        padding-left: 50px;
+    }
+    .continfo{
+        padding-left: 50px;
+    }
+    .endtag{
+        padding-left: 50px;
+        padding-right: 0;
+    }
+    .fborder{
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: -8px;
+    }
+    .ftag1 {
+        margin-top: 23px;
+    }
+    .company,.product,.finventory {
+        width: 279px;
+    }
+    .continfo{
+        width: 100%;
+    }
+
+
+
+
+} 
+@media only screen and (min-width : 992px) and (max-width : 1199px){
+    
+    .col-lg-3{
+        width: 100%;
+    }
+    .col {
+        width: 34%;
+    }
+    .items1{
+        column-gap: 0;
+    }
+    .addcart{
+        margin-left: 10px;
+    }
+    .footericon{
+            top: 213px;
+    }
+}
+@media only screen and (min-width : 1200px) and (max-width : 1600px){
+   
+    .col-lg-3 {
+        width: 25%;
+    }
+    .pack1 img {
+        height: 224px;
+        width:  206px;;
+    }
+    .col {
+        flex: 1 0 0%;
+        width: 206px;
+    }
+    .items1{
+        column-gap: 0;
+    }
+    .addcart{
+        margin-left: 10px;
+    }
+}
