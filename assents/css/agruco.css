@@ -212,6 +212,10 @@
    font-size: 14px;
    font-family: Roboto, Arial, Helvetica, sans-;
 }
+.home a{
+    text-decoration: none;
+    color: #666;
+}
 .home:hover{
     text-decoration: underline;
 }
@@ -224,6 +228,7 @@
     position: relative;
     background-color: white;
     font-family: Roboto, Arial, Helvetica, sans-;  
+    cursor: pointer;
 }
 .dropdown {
     position: absolute;
